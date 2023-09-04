@@ -1,0 +1,319 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+a{
+  text-decoration: none;
+}
+.link{
+  gap:10px;
+  margin-top: 20px;
+}
+.page1{
+  height: 100vh;
+}
+.div{
+  width:300px;
+  background: #FFF705;
+  height: 40px;
+  border-radius: 20px;
+  padding:2px 20px;
+  display: flex;
+  gap:10px;
+}
+.page2{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.professions ,.imagepage{
+  width: 50%;
+  height: 100vh;
+  padding: 0px 15px;
+}
+.image1{
+  width:100%;
+  height: 80%;
+}
+.page3{
+  width:100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.w-50{
+  width: 50%;
+}
+.image4{
+  width: 45%;
+  display: flex;
+  align-items: center;
+}
+.kurs{
+  width: 65%;
+  padding:0 20px;
+}
+.pink{
+  padding:40px;
+}
+.page4{
+  display: flex;
+}
+.button{
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.page6{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.width100{
+  width: 100%;
+
+}
+.image5{
+  width: 48%;
+  height: 50vh;
+}
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+  gap: 5px;
+}
+.checking{
+  width: 24.5%;
+  font-size: 13px;
+}
+.image6{
+  width: 65%;
+}
+.image7{
+  border-radius: 10px;
+  width: 45%;
+  background: #F5F5F5;
+  height: 100%;
+   font-size: 12px;
+  padding: 40px;
+}
+.container-fluid1{
+  background: #292929;
+  border-radius: 10px;
+}
+.images{
+  width:100%;
+  height:auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.astrum{
+  width:24%;
+}
+.black1{
+  width: 50px;
+}
+.card1{
+  background: #F5F5F5;
+}
+.cards1{
+  width:100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.card2{
+  width:20%;
+  margin-left: -20px;
+}
+.image9{
+  width:90%;
+  height:80%;
+  display: flex;
+  padding:20px 0;
+}
+.flexdiv{
+  display: flex;
+}
+.Flexdiv{
+  display: flex;
+  gap:5px;
+}
+.div2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.width50{
+  width:50%;
+}
+.footer{
+  width:100%;
+  height:auto;
+  display:flex;
+  gap:30px;
+  padding:30px 20px;
+  color:white;
+}
+.flexwrap{
+  width:100%;
+  display:flex;
+  align-items:center;
+  gap:30px;
+}
+.white{
+  background:white;
+  border-radius:10px;
+  width:35%;
+  padding:20px
+}
+.black{
+  width:65%;
+  color:white;
+  padding:0px 50px
+}
+.footer p{
+  font-size: 12px;
+}
+.a,.a1,.a2,.a3{
+  width:25%
+}
+.a4{
+  width:30%;
+}.blueFlex{
+  width:100%;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}
+.page8{
+  display: flex;
+}
+.image5{
+  width:50%;
+}
+.vaprosi{
+  display: flex;
+}
+.image0{
+  margin-top: -150px;
+}
+@media screen and (max-width:600px){
+    .container ,container-fluid{
+      flex-wrap: wrap;
+      height: auto;
+    }
+    .image0{
+      margin-top: 30px;
+    }
+  .page2,.imagepage{
+    width:100%;
+    height: auto;
+  }
+  .professions{
+    width:100%;
+    height: auto;
+  }
+  .astrum{
+    width:100%;
+  }
+  .images{
+    flex-wrap: wrap;
+  }
+    .image1 ,.image4,.image5,.image6,.image7,.imagepage{
+      width: 100%;
+    }
+    .cards{
+      width:100%;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .flexdiv,.page8{
+      flex-wrap: wrap;
+    }
+    .image7{
+      height: auto;
+    }
+    .navbar{
+      flex-wrap: wrap;
+    }
+    .checking{
+      width:48%;
+    }
+    .cards1{
+      width:100%;
+      display:flex;
+      flex-wrap: wrap;
+    }
+    .footer{
+      flex-wrap: wrap;
+      width:100%
+    }
+    .Flexdiv{
+      flex-wrap: wrap;
+    }
+    .page6{
+      flex-wrap: wrap;
+    }
+    .card2{
+      width:100%;
+      text-align: center;
+    }
+    .width50{
+      width:100%;
+    }
+    .vaprosi{
+      flex-wrap: wrap;
+    }
+
+    .width100{
+      flex-wrap: wrap;
+      height: auto;
+    }
+    .a1,.a2,.a3,.a4,.a5{
+      width:100%;
+      margin-top: 25px;
+    }
+    .image9{
+      height: 95%;
+      object-fit: fill;
+    }
+    .blueFlex{
+      width:100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .flexwrap{
+      flex-wrap: wrap;
+    }
+    .image1{
+      width:100%;
+      height:auto;
+    }
+      .white,.black{
+        width:100%;
+      }
+
+}
